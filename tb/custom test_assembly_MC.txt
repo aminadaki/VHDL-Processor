@@ -1,0 +1,12 @@
+li r1,264
+addi r5,r0,8
+add r17,r5,r1
+sra r18,r17
+rol r19,r18
+lui r2,9
+ori r3,r2,15
+sw r1,4(r0)
+sb r17,8(r0)
+lw r4,4(r0)
+lb r6,4(r0)
+bne r1,r5,-8

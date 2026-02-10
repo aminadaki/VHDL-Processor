@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="C:/Users/Mulan/Desktop/mplanci/mplimplimpli/PROCESSOR_PIPELINE_test_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="numeric_std" />
+            <top_module name="processor_pipeline_test" />
+            <top_module name="std_logic_1164" />
+            <top_module name="std_logic_arith" />
+            <top_module name="std_logic_signed" />
+            <top_module name="std_logic_textio" />
+            <top_module name="std_logic_unsigned" />
+            <top_module name="textio" />
+            <top_module name="vcomponents" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="15" />
+   <wvobject fp_name="/processor_pipeline_test/clock" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clock</obj_property>
+      <obj_property name="ObjectShortName">clock</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor_pipeline_test/reset" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor_pipeline_test/uut/ctlr/currents" type="other" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">currents</obj_property>
+      <obj_property name="ObjectShortName">currents</obj_property>
+      <obj_property name="label">fsm_state</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor_pipeline_test/uut/ctlr/pc_lden_control" type="logic" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">pc_lden_control</obj_property>
+      <obj_property name="ObjectShortName">pc_lden_control</obj_property>
+      <obj_property name="label">pc_loadEnable</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor_pipeline_test/uut/data/ifstage/pc_out" type="array" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">pc_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">pc_out[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      <obj_property name="label">instr_position</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor_pipeline_test/uut/data/dec/regFile/dout01" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">dout01[31:0]</obj_property>
+      <obj_property name="ObjectShortName">dout01[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#00ffff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor_pipeline_test/uut/data/dec/regFile/dout02" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">dout02[31:0]</obj_property>
+      <obj_property name="ObjectShortName">dout02[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#00ffff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor_pipeline_test/uut/data/dec/regFile/dout3" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">dout3[31:0]</obj_property>
+      <obj_property name="ObjectShortName">dout3[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#00ffff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor_pipeline_test/uut/data/mem/ram1/ram[1025]" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">[1025]</obj_property>
+      <obj_property name="ObjectShortName">ram[1025]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#00ffff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor_pipeline_test/uut/data/dec/regFile/dout4" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">dout4[31:0]</obj_property>
+      <obj_property name="ObjectShortName">dout4[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#00ffff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor_pipeline_test/uut/data/dec/regFile/dout5" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">dout5[31:0]</obj_property>
+      <obj_property name="ObjectShortName">dout5[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#00ffff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor_pipeline_test/uut/data/dec/regFile/dout6" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">dout6[31:0]</obj_property>
+      <obj_property name="ObjectShortName">dout6[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#00ffff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor_pipeline_test/uut/data/mem/ram1/ram[1026]" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">[1026]</obj_property>
+      <obj_property name="ObjectShortName">ram[1026]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#00ffff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor_pipeline_test/uut/data/dec/regFile/dout16" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">dout16[31:0]</obj_property>
+      <obj_property name="ObjectShortName">dout16[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#00ffff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor_pipeline_test/uut/data/dec/regFile/dout24" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">dout24[31:0]</obj_property>
+      <obj_property name="ObjectShortName">dout24[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#00ffff</obj_property>
+   </wvobject>
+</wave_config>

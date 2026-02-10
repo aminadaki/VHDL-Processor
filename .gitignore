@@ -1,0 +1,37 @@
+# Xilinx ISE / Vivado generated files
+*.xise
+*.gise
+*.ise
+*.wnp
+*.xst
+*.syr
+*.ngc
+*.ngd
+*.ncd
+*.bit
+*.twr
+*.restore
+*.log
+*.cmd_log
+*.lso
+*.prj
+*.stx
+*.srp
+*.xml
+*.html
+
+# Simulation artifacts
+fuse.log
+isim.wdb
+isim.cmd
+isim/
+_xmsgs/
+xst/
+iseconfig/
+
+# Keep these
+!*.vhd
+!*.txt
+!*.data
+!*.wcfg
+!*.pdf

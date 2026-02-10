@@ -1,0 +1,10 @@
+li r1,264
+li r2,1
+add r3,r2,r1
+sw 4(r0),r3
+li r4,-2
+lw r5,4(r0)
+add r6,r5,r1
+sw 8(r0),r6
+li r16,264
+li r24,264
