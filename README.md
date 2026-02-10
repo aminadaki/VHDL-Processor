@@ -1,4 +1,4 @@
-# VHDL MIPS Processor Implementation
+# VHDL MIPS Processor 
 
 This repository contains the VHDL source code for a 32-bit RISC processor based on the MIPS architecture. The project implements two different microarchitectures: a **Multi-Cycle** design controlled by a finite state machine and a **5-Stage Pipelined** design with advanced hazard handling.
 
